@@ -12,3 +12,6 @@ Integrantes
 # Rubén Recalde
 
 # ----------------------------------- #
+
+# OJO el archivo de training por restricciones de tamaño de GitHub fue recortado en 10k Líneas
+
