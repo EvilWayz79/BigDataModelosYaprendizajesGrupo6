@@ -43,3 +43,10 @@ print(train_data.head())
 
 # ----------------------------------- #
 
+Después, creamos nuevas características como la suma de los valores de intensidad de los píxeles y las agregamos a las características originales. Esto puede mejorar el rendimiento del modelo.
+
+Luego, construimos un modelo de clasificación utilizando Random Forest Classifier y lo entrenamos utilizando las características originales más las nuevas características.
+
+Finalmente, evaluamos el modelo en el conjunto de prueba y visualizamos la matriz de confusión para interpretar el rendimiento del modelo en la clasificación de los números escritos a mano.
+
+# ----------------------------------- #
