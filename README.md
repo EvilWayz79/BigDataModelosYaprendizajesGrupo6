@@ -32,21 +32,17 @@ train_data.info()
 
 # ----------------------------------- #
 
-test_data.info()
-#la interpretación de los resultados me indica que DataFrame contiene 10,000 muestras, cada una representada por 785 características (784 para los valores de los píxeles y 1 para la etiqueta). El DataFrame utiliza aproximadamente 59.9 megabytes de memoria en tu sistema.
-
-
-# ----------------------------------- #
-
-Preparamos los datos para entrenamiento:
-print(train_data.head())
-
-# ----------------------------------- #
-
+Paso 3.
 Después, creamos nuevas características como la suma de los valores de intensidad de los píxeles y las agregamos a las características originales. Esto puede mejorar el rendimiento del modelo.
 
-Luego, construimos un modelo de clasificación utilizando Random Forest Classifier y lo entrenamos utilizando las características originales más las nuevas características.
+# ----------------------------------- #
 
-Finalmente, evaluamos el modelo en el conjunto de prueba y visualizamos la matriz de confusión para interpretar el rendimiento del modelo en la clasificación de los números escritos a mano.
+Paso 4.
+Construimos un modelo de clasificación utilizando Random Forest Classifier y lo entrenamos utilizando las características originales más las nuevas características.
+
+# ----------------------------------- #
+
+Paso 5.
+Finalmente, evaluamos el modelo en el conjunto de prueba y visualizamos la matriz de confusión para interpretar el rendimiento del modelo en la clasificación de los números escritos a mano.
 
 # ----------------------------------- #
