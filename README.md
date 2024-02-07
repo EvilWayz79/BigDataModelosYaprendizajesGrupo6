@@ -6,7 +6,7 @@ Grupo 6 Maestria UIDE
 Integrantes
 # ----------------------------------- #
 
-# Lili Amán
+# Lilian Amán
 # Santiago Borja
 # Renato Jacome
 # Rubén Recalde
@@ -35,4 +35,11 @@ train_data.info()
 test_data.info()
 #la interpretación de los resultados me indica que DataFrame contiene 10,000 muestras, cada una representada por 785 características (784 para los valores de los píxeles y 1 para la etiqueta). El DataFrame utiliza aproximadamente 59.9 megabytes de memoria en tu sistema.
 
+
 # ----------------------------------- #
+
+Preparamos los datos para entrenamiento:
+print(train_data.head())
+
+# ----------------------------------- #
+
