@@ -58,6 +58,7 @@ En el conjunto de datos de entrenamiento y se ha obtenido una pérdida de aproxi
 MATRIZ DE CONFUSION EN TRAINING
 
  | 0 | 5518 | 1 | 91 | 79 | 9 | 0 | 292 | 0 | 10 | 0 |
+ |:-:|-----------------------------------------------|
  | 1 | 2 | 5931    2   50    6    0    7    0    2    0 |
  | 2 | 67 |    4 5565   30  180    0  149    0    5    0 |
  | 3 | 95 |   17   46 5585  127    0  128    0    2    0 |
